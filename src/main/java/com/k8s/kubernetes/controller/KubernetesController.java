@@ -11,7 +11,7 @@ public class KubernetesController {
 
     @RequestMapping("/k8s")
     public String welcomeMsg(){
-        return "Welcome to Kubernetes";
+        return "Welcome to Kubernetes world";
     }
 
     @GetMapping("/emprequest")
